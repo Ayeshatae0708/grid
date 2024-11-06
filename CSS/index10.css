@@ -1,0 +1,64 @@
+.contenedor{
+display: grid;
+grid-column: auto auto auto auto;
+
+}
+.menu{
+ width: 100%;
+ height: 70px;
+ background-color: rgb(109, 109, 205);
+grid-column: 1 /5;
+
+}
+.cuadrogris{
+    width:650px;
+    height: 635px;
+    background-color: rgb(171, 169, 169);
+margin-top: 15px;
+
+
+}
+.cuadroazul{
+    width: 841px;
+    height: 635px;
+    background-color: rgb(73, 82, 254);
+    margin-top: 15px;
+   margin-left: 10px;
+   display: grid;
+   grid-template-columns: auto;
+   justify-content: space-around;
+
+}
+.turquesa1{
+    width: 820px;
+    height: 300px;
+    background-color: aquamarine;
+    margin-top:  10px;
+grid-column: 1/1;
+
+}
+.turquesa2{
+    width: 820px;
+    height: 300px;
+    background-color: aquamarine;
+   margin-top: 10px;
+
+
+}
+
+.marron{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(118, 18, 18);
+    grid-column: 1/5;
+    margin-top: 10px;
+    }
+    .footer{
+        width: 100%;
+        height: 60px;
+        background-color: rgb(109, 109, 205);
+        top: 810px;
+        grid-column: 1/5;
+margin-top: 10px;
+
+    }
